@@ -23,7 +23,7 @@ export default class Header extends Component {
                         className="d-inline-block align-top"
                         alt="Logo"
 
-                        /> ЛИФТСИТИ
+                        /> ЛИФТСИТ
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
