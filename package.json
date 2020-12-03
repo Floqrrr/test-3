@@ -2,11 +2,16 @@
   "homepage": "http://Floqrrr.github.io/test-site",
   "name": "alpha-lift",
   "version": "0.1.0",
+  "author": "Floqrrr",
+  "license": "ISC",
   "private": true,
+  "description": "simple",
+  "main": "index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "express":"4.17.1",
     "bootstrap": "^4.5.3",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
@@ -19,10 +24,11 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "node index",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject",
+    "server": "nodemon index"
   },
   "eslintConfig": {
     "extends": [
