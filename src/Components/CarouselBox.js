@@ -25,8 +25,8 @@ export default class CarouselBox extends Component {
                     alt="Lift2"
                 />
                 <Carousel.Caption>
-                    <h3>Pidoras image</h3>
-                    <p>Pizdec pendosi ahueli</p>
+                    <h3>Тихие зори</h3>
+                    <p>...</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
