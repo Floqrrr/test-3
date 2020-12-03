@@ -5,7 +5,15 @@ import CarouselBox from '../Components/CarouselBox'
 export default class Home extends Component {
     render() {
         return (
+            <dev>
                 <CarouselBox></CarouselBox>
+                
+                <Container>
+                <blockquote class="blockquote text-center">
+                    
+                </blockquote>
+                </Container>
+            </dev>
             
         )
     }
