@@ -1,21 +1,36 @@
   .ie {
     font-size: 2em;
     color: #fff;
-    position: static;margin-bottom: 300px;
-    text-shadow: -0   -1px 0   #000000,
-           0   -1px 0   #000000,
-          -0    1px 0   #000000,
-           0    1px 0   #000000,
-          -1px -0   0   #000000,
-           1px -0   0   #000000,
-          -1px  0   0   #000000,
-           1px  0   0   #000000,
-          -1px -1px 0   #000000,
-           1px -1px 0   #000000,
-          -1px  1px 0   #000000,
-           1px  1px 0   #000000,
-          -1px -1px 0   #000000,
-           1px -1px 0   #000000,
-          -1px  1px 0   #000000,
-           1px  1px 0   #000000;
+    position: static;
+    text-shadow: -0   -0.5px 0   #000000,
+           0   -0.5px 0   #000000,
+          -0    0.5px 0   #000000,
+           0    0.5px 0   #000000,
+          -0.5px -0   0   #000000,
+          0.5px -0   0   #000000,
+          -0.5px  0   0   #000000,
+          0.5px  0   0   #000000,
+          -0.5px -0.5px 0   #000000,
+          0.5px -0.5px 0   #000000,
+          -0.5px  0.5px 0   #000000,
+          0.5px  0.5px 0   #000000,
+          -0.5px -0.5px 0   #000000,
+          0.5px -0.5px 0   #000000,
+          -0.5px  0.5px 0   #000000,
+          0.5px  0.5px 0   #000000;
+  }
+  .head {
+    font-size: 0.8em;
+  }
+  .row{
+    top: 45%;
+    left: 44%;
+    white-space: pre-wrap;
+    hyphens: auto;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(114, 114, 114); 
+  }
+  .example-shadow-3 {
+    background: #e8e8e8;
+    text-align: center;
   }
