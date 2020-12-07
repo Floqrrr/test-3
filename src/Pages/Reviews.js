@@ -3,9 +3,9 @@ import { Carousel, Container, Row, Col } from 'react-bootstrap';
 export default class Reviews extends Component {
     render() {
         return (
-    <Container>
+    <Container style={{paddingTop: '2rem', paddingBottom: '2rem' }}>
             <Row>
-               
+                <Col/>
                 <Col>
                     <p>
                     Отличная компания! Сотрудничаем уже не один год, всегда своевременное обслуживание оборудования, квалифицированный персонал и индивидуальный подход к заказчику. Желаю успехов!

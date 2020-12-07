@@ -20,12 +20,12 @@ export default class Header extends Component {
                     <Navbar.Brand href="/">
                         <img 
                         src={logo}
-                        height="30"
-                        widght="30"
+                        height="70"
+                        widght="70"
                         className="d-inline-block align-top"
                         alt="Logo"
 
-                        /> ЛИФТСИТИ
+                        /> <h6>ЛИФТСИТИ</h6>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

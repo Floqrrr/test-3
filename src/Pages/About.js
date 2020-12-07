@@ -1,17 +1,18 @@
 import React, { Component } from 'react'
 import { Container,Tab, Nav, Row, Col } from 'react-bootstrap'
 import Imglogo from '../assets/logo.png';
+import '../Page.css';
 
 export default class About extends Component {
     render() {
         return (
-            <Container>
+            <Container style={{paddingTop: '2rem', paddingBottom: '2rem' }}>
             <Row>
-                <Col md={7}>
+                <Col md={5}>
                     <img src={Imglogo} height={400} alt ="logo"/>
                 </Col>
-                <Col md={5}>
-                    <p>ООО «ЛифтСити» оказывает услуги по техническому, аварийно-техническому обслуживанию лифтов и систем диспетчеризации.
+                <Col md={7}>
+                    <p className="textAb">ООО «ЛифтСити» оказывает услуги по техническому, аварийно-техническому обслуживанию лифтов и систем диспетчеризации.
 
 В нашей компании высококвалифицированный аттестованный персонал. Создана служба инженерно-технического обеспечения, аварийно-диспетчерская служба, служба эксплуатации инженерного оборудования и автоматизированных систем управления. 
 

@@ -33,37 +33,37 @@ export default class Services extends Component {
                 <Col sm={9}>
                     <Tab.Content className="mt-3">
                         <Tab.Pane eventKey="1">
-                           <img src="https://liftperm.ru/assets/images/5vt.jpg" />
+                           <img src="" />
                            <p>
                                Производим установку и монтаж лифтов
                            </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="2">
-                           <img src="https://mrpl.city/uploads/news/968x504/g1k5kwhoc0qzg6ky.JPG" />
+                           <img src="" />
                            <p>
                                Производим установку и монтаж лифтов
                            </p>
                         </Tab.Pane> 
                         <Tab.Pane eventKey="3">
-                           <img src="https://dmitrovets.ru/wp-content/uploads/2017/06/photo_2017-06-26_13-16-41.jpg" />
+                           <img src="" />
                            <p>
                                Производим установку и монтаж лифтов
                            </p>
                         </Tab.Pane>  
                         <Tab.Pane eventKey="4">
-                           <img src="https://dmitrovets.ru/wp-content/uploads/2017/06/photo_2017-06-26_13-16-41.jpg" />
+                           <img src="" />
                            <p>
                                Производим установку и монтаж лифтов
                            </p>
                         </Tab.Pane>  
                         <Tab.Pane eventKey="5">
-                           <img src="https://dmitrovets.ru/wp-content/uploads/2017/06/photo_2017-06-26_13-16-41.jpg" />
+                           <img src="" />
                            <p>
                                Производим установку и монтаж лифтов
                            </p>
                         </Tab.Pane>  
                         <Tab.Pane eventKey="6">
-                           <img src="https://dmitrovets.ru/wp-content/uploads/2017/06/photo_2017-06-26_13-16-41.jpg" />
+                           <img src="" />
                            <p>
                                Производим установку и монтаж лифтов
                            </p>

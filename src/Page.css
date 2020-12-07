@@ -22,15 +22,15 @@
   .head {
     font-size: 0.8em;
   }
-  .row{
+  .text{
     top: 45%;
     left: 44%;
-    white-space: pre-wrap;
-    hyphens: auto;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgb(114, 114, 114); 
+    font-size: 1.2em;
+    
   }
-  .example-shadow-3 {
-    background: #e8e8e8;
-    text-align: center;
+  .textAb{
+    top: 45%;
+    left: 44%;
+    font-size: 1em;
+    
   }
