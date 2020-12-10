@@ -34,3 +34,10 @@
     font-size: 1em;
     
   }
+  .bar{
+    padding: bottom
+  }
+  .fixed {
+    position:bottom;
+    top:500px;
+}

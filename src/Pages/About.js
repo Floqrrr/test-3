@@ -6,7 +6,7 @@ import '../Page.css';
 export default class About extends Component {
     render() {
         return (
-            <Container style={{paddingTop: '2rem', paddingBottom: '2rem' }}>
+            <Container style={{paddingTop: '10rem', paddingBottom: '2rem' }}>
             <Row>
                 <Col md={5}>
                     <img src={Imglogo} height={400} alt ="logo"/>

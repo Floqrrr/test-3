@@ -11,7 +11,7 @@ import lift6 from '../assets/obj6.png';
 export default class Objects extends Component {
     render() {
         return (
-           <Container style={{paddingTop: '2rem', paddingBottom: '2rem' }}>
+           <Container style={{paddingTop: '10rem', paddingBottom: '2rem' }}>
                <Row>
                     <Col>
                         <Card style={{width: '18rem'}}>    

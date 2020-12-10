@@ -4,7 +4,7 @@ import { Container, Tab, Nav, Row, Col } from 'react-bootstrap'
 export default class Services extends Component {
     render() {
         return (
-            <Container>
+            <Container style={{paddingTop: '10rem', paddingBottom: '2rem' }}>
             <Tab.Container id="ledt-tabs-example" defaultActiveKey="1">
             <Row>
                 <Col sm={3}>
