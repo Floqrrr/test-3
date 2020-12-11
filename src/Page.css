@@ -26,12 +26,14 @@
     top: 45%;
     left: 44%;
     font-size: 1.2em;
+    font-family: "Tahoma", Georgia, sans-serif;
     
   }
   .textAb{
     top: 45%;
     left: 44%;
     font-size: 1em;
+    font-family: "Tahoma", Georgia, sans-serif;
     
   }
   .bar{
@@ -40,4 +42,7 @@
   .fixed {
     position:bottom;
     top:500px;
+}
+.text1{
+  font-family: "Tahoma", Georgia, sans-serif;
 }

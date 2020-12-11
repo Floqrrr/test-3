@@ -11,13 +11,17 @@ import lift6 from '../assets/obj6.png';
 export default class Objects extends Component {
     render() {
         return (
-           <Container style={{paddingTop: '10rem', paddingBottom: '2rem' }}>
+            
+           <Container style={{paddingTop: '10rem', paddingBottom: '4rem' }}>
+               <Row style={{paddingTop: '0rem', paddingBottom: '4rem' }}>
+                   <h4  className="text">Компания ООО "ЛифтСити" осуществляет техническое обслуживание и ремонт лифтов в разных жилищных комплексах города.</h4>
+               </Row>
                <Row>
                     <Col>
                         <Card style={{width: '18rem'}}>    
                         <Card.Img variant="top" src={lift1}/>
                         <Card.Body>
-                            <Card.Title>
+                            <Card.Title  className="text">
                                 ЖК Белые росы
                             </Card.Title>
 
@@ -28,7 +32,7 @@ export default class Objects extends Component {
                         <Card style={{width: '18rem'}}>    
                         <Card.Img variant="top" src={lift2}/>
                         <Card.Body>
-                            <Card.Title>
+                            <Card.Title  className="text">
                                 ЖК Тихие зори
                             </Card.Title>
 
@@ -39,7 +43,7 @@ export default class Objects extends Component {
                         <Card style={{width: '18rem'}}>    
                         <Card.Img variant="top" src={lift3}/>
                         <Card.Body>
-                            <Card.Title>
+                            <Card.Title  className="text">
                                 ЖК Орбита
                             </Card.Title>
 
@@ -52,7 +56,7 @@ export default class Objects extends Component {
                         <Card style={{width: '18rem'}}>    
                         <Card.Img variant="top" src={lift4}/>
                         <Card.Body>
-                            <Card.Title>
+                            <Card.Title  className="text">
                                 ЖК Северные ворота
                             </Card.Title>
 
@@ -63,7 +67,7 @@ export default class Objects extends Component {
                         <Card style={{width: '18rem'}}>    
                         <Card.Img variant="top" src={lift5}/>
                         <Card.Body>
-                            <Card.Title>
+                            <Card.Title  className="text">
                                 ЖК Отражение
                             </Card.Title>
 
@@ -74,7 +78,7 @@ export default class Objects extends Component {
                         <Card style={{width: '18rem'}}>    
                         <Card.Img variant="top" src={lift6}/>
                         <Card.Body>
-                            <Card.Title>
+                            <Card.Title  className="text">
                                 ЖК Серебряный
                             </Card.Title>
 
