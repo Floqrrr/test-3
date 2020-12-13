@@ -27,6 +27,7 @@
     left: 44%;
     font-size: 1.2em;
     font-family: "Tahoma", Georgia, sans-serif;
+    margin-bottom: 0.5em
     
   }
   .textAb{
@@ -45,4 +46,25 @@
 }
 .text1{
   font-family: "Tahoma", Georgia, sans-serif;
+  text-align: left;
+}
+.textr{
+  top: 45%;
+    left: 44%;
+    font-size: 1.2em;
+  font-family: "Tahoma", Georgia, sans-serif;
+  text-align: right;
+}
+.jumbotron{
+  
+  background-image: url("https://cdn.photosight.ru/img/6/d2c/5790810_xlarge.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color:#fff;
+  
 }

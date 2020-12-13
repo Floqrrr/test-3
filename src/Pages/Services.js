@@ -39,41 +39,77 @@ export default class Services extends Component {
                 <Col sm={9}>
                     <Tab.Content className="mt-3">
                         <Tab.Pane eventKey="1">
-                           <img src={serv1} />
+                           <Row>
+                           <Col>
                            <p  className="text">
-                               Производим установку и монтаж лифтов
+                               Производим установку и монтаж лифтов 1
                            </p>
+                           </Col>
+                           <Col>
+                           <img src={serv1} />
+                           </Col>
+                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="2">
+                           <Row>
+                           <Col>
+                           <p  className="text">
+                               Производим установку и монтаж лифтов 2
+                           </p>
+                           </Col>
+                           <Col>
                            <img src={serv2} />
-                           <p className="text">
-                               Производим установку и монтаж лифтов
-                           </p>
-                        </Tab.Pane> 
+                           </Col>
+                           </Row>
+                        </Tab.Pane>
                         <Tab.Pane eventKey="3">
+                           <Row>
+                           <Col>
+                           <p  className="text">
+                               Производим установку и монтаж лифтов 6
+                           </p>
+                           </Col>
+                           <Col>
                            <img src={serv6} />
-                           <p  className="text">
-                               Производим установку и монтаж лифтов
-                           </p>
-                        </Tab.Pane>  
+                           </Col>
+                           </Row>
+                        </Tab.Pane>
                         <Tab.Pane eventKey="4">
+                           <Row>
+                           <Col>
+                           <p  className="text">
+                               Производим установку и монтаж лифтов 3
+                           </p>
+                           </Col>
+                           <Col>
                            <img src={serv3} />
-                           <p  className="text">
-                               Производим установку и монтаж лифтов
-                           </p>
-                        </Tab.Pane>  
+                           </Col>
+                           </Row>
+                        </Tab.Pane>
                         <Tab.Pane eventKey="5">
-                           <img src={serv4} />
+                           <Row>
+                           <Col>
                            <p  className="text">
                                Производим установку и монтаж лифтов
                            </p>
-                        </Tab.Pane>  
+                           </Col>
+                           <Col>
+                           <img src={serv4} />
+                           </Col>
+                           </Row>
+                        </Tab.Pane>
                         <Tab.Pane eventKey="6">
-                           <img src={serv5} />
-                           <p className="text">
+                           <Row>
+                           <Col>
+                           <p  className="text">
                                Производим установку и монтаж лифтов
                            </p>
-                        </Tab.Pane>  
+                           </Col>
+                           <Col>
+                           <img src={serv5} />
+                           </Col>
+                           </Row>
+                        </Tab.Pane>
                     </Tab.Content>
                 </Col>
             </Row>

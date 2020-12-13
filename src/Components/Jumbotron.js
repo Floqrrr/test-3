@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 import {Jumbotron as Jumbo, Container} from 'react-bootstrap';
+import city from '../assets/city.jpg';
+import '../Page.css';
 
 const Jumbotron = () => (
-    <Jumbo fluid className="jumbo">
-        <div className="overlay"></div>
-        <Container>
-            <h1>О компании</h1>
-        </Container>
-    </Jumbo>
+    
+    <div class="jumbotron">
+    <h1>Текст</h1>
+
+   
+  </div>
+ 
     
 )
 
