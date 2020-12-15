@@ -12,11 +12,11 @@ export default class Objects extends Component {
     render() {
         return (
             
-           <Container style={{paddingTop: '10rem', paddingBottom: '4rem' }}>
-               <Row style={{paddingTop: '0rem', paddingBottom: '4rem' }}>
+           <Container style={{paddingTop: '10rem'}}>
+               <Row>
                    <h4  className="text">Компания ООО "ЛифтСити" осуществляет техническое обслуживание и ремонт лифтов в разных жилищных комплексах города.</h4>
                </Row>
-               <Row>
+               <Row style={{paddingTop: '2rem'}}>
                     <Col>
                         <Card style={{width: '18rem'}}>    
                         <Card.Img variant="top" src={lift1}/>
@@ -51,7 +51,7 @@ export default class Objects extends Component {
                         </Card>
                     </Col>
                     </Row>
-                    <Row style={{paddingTop: '2rem', paddingBottom: '2rem' }}>
+                    <Row style={{paddingTop: '2rem'}}>
                     <Col>
                         <Card style={{width: '18rem'}}>    
                         <Card.Img variant="top" src={lift4}/>

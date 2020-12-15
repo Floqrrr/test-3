@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Nav, Navbar, FormControl,Container, Form, Button } from 'react-bootstrap'
+import { Nav, Navbar, FormControl,Container, Form,  Button } from 'react-bootstrap'
 import { Route } from 'react-router'
 import logo from '../assets/logo.png';
 import { BrowserRouter as Router, Switch, Link } from 'react-router-dom'
@@ -15,20 +15,26 @@ export default class Header extends Component {
     render() {
         return (
             <>
+            
             <Navbar fixed="top"  collapseOnSelect expand="md" bg="dark" variant="dark">
+            
                 <Container>
+                <Navbar.Text><h4>ООО «ЛифтСити»</h4></Navbar.Text>
                     <Navbar.Brand href="/">
                         <img 
                         src={logo}
-                        height="50"
-                        widght="50"
+                        height="70"
+                        widght="70"
                         className="d-inline-block align-top"
                         alt="Logo"
 
-                        /> <h6>ООО «ЛифтСити»</h6>
+                        /> 
+                        
                     </Navbar.Brand>
+
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
+                      
                         <Nav className="mr-auto">
                             
                             <Nav.Link href="/"> <h5>Главная</h5></Nav.Link>
@@ -48,6 +54,8 @@ export default class Header extends Component {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+
+
             <Router>
                 <Switch>
                     <Route exact path="/" component={Home} />
