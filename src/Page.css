@@ -32,6 +32,15 @@
     text-align: justify;
     
   }
+  .textF{
+    font-weight: 540;
+    top: 45%;
+    left: 44%;
+    font-size: 1.2em;
+    font-family: "Tahoma", Georgia, sans-serif;
+    margin-bottom: 0.5em;
+    text-align: justify;
+  }
   .textAb{
     top: 45%;
     left: 44%;

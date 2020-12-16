@@ -19,7 +19,7 @@ export default class Header extends Component {
             <Navbar fixed="top"  collapseOnSelect expand="md" bg="dark" variant="dark">
             
                 <Container>
-                <Navbar.Text><h4>ООО «ЛифтСити»</h4></Navbar.Text>
+                <Navbar.Text><h4>ООО «ЛИФТСИТИ»</h4></Navbar.Text>
                     <Navbar.Brand href="/">
                         <img 
                         src={logo}
@@ -70,7 +70,7 @@ export default class Header extends Component {
             <Navbar className="fixed"  collapseOnSelect expand="md" bg="dark" variant="dark">
             <Container>
                     <Navbar.Text className="mr-auto" >
-                        <h4 className="head">ООО «ЛифтСити»</h4>
+                        <h4 className="head">ООО «ЛИФТСИТИ»</h4>
                         <h5 className="head"></h5>
                         <h5 className="head"></h5>
                     </Navbar.Text>    

@@ -14,7 +14,7 @@ export default class Objects extends Component {
             
            <Container style={{paddingTop: '10rem'}}>
                <Row>
-                   <h4  className="text">Компания ООО "ЛифтСити" осуществляет техническое обслуживание и ремонт лифтов в разных жилищных комплексах города.</h4>
+                   <h4  className="text">Компания ООО "ЛИФТСИТИ" осуществляет техническое обслуживание и ремонт лифтов в разных жилищных комплексах города.</h4>
                </Row>
                <Row style={{paddingTop: '2rem'}}>
                     <Col>
