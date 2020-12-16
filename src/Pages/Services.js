@@ -3,11 +3,8 @@ import { Container, Tab, Nav, Row, Col, Dropdown, DropdownButton } from 'react-b
 import serv1 from '../assets/serv1.png';
 import serv2 from '../assets/serv2.png';
 import serv3 from '../assets/serv3.png';
-import serv4 from '../assets/serv4.png';
-import serv5 from '../assets/serv5.png';
 import serv6 from '../assets/serv6.png';
-import kluch from '../assets/kluch.png';
-import ballon from '../assets/balon.png';
+
 
 
 
@@ -17,24 +14,24 @@ export default class Services extends Component {
             <>
             
             <Container style={{paddingTop: '10rem', paddingBottom: '2rem' }}>
-            <Tab.Container id="ledt-tabs-example" defaultActiveKey="1">
+            <Tab.Container  id="ledt-tabs-example" defaultActiveKey="1">
             <Row>
                 
                 <Col sm={3}>
                     <Nav variant="pills" className="flex-column mt-2">
                     
 
-                        <Nav.Item>
-                            <Nav.Link eventKey="1">Комплексное техническое обслуживание</Nav.Link>
+                        <Nav.Item >
+                            <Nav.Link eventKey="1" className="textL">Комплексное техническое обслуживание</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="2">Диспетчеризация лифтов</Nav.Link>
+                            <Nav.Link eventKey="2" className="textL">Диспетчеризация лифтов</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="3">Аварийно-техническое обслуживание</Nav.Link>
+                            <Nav.Link eventKey="3" className="textL">Аварийно-техническое обслуживание</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="4">Модернизация лифтов</Nav.Link>
+                            <Nav.Link eventKey="4" className="textL">Модернизация лифтов</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Col>
@@ -46,22 +43,22 @@ export default class Services extends Component {
                            <p  className="text">
                            Техобслуживание лифтов – обязательная процедура, касающаяся абсолютно каждого подъёмника, вне зависимости от того, для каких целей он предназначен.
                            </p>
-                           <p  className="text">
+                           <p  className="text" style={{paddingBottom: '0.05rem'}}>
                             В ходе осмотров проверяются следующие компоненты:
                             </p>
-                           <p  className="text">
+                           <p className="text">
                             система безопасности;
                             </p>
-                           <p  className="text">
+                           <p   className="text">
                             тормозные устройства;
                             </p>
                            <p  className="text">
                             привод дверей;
                             </p>
-                           <p  className="text">
+                           <p className="text">
                             состояние информационных стендов с номерами экстренного вызова мастера;
                             </p>
-                           <p  className="text">
+                           <p className="text">
                             система связи с диспетчером.
                             </p>
                            <p  className="text">

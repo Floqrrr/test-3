@@ -1,3 +1,4 @@
+  
   .ie {
     font-size: 2em;
     color: #fff;
@@ -27,14 +28,32 @@
     left: 44%;
     font-size: 1.2em;
     font-family: "Tahoma", Georgia, sans-serif;
-    margin-bottom: 0.5em
+    margin-bottom: 0.5em;
+    text-align: justify;
     
   }
   .textAb{
     top: 45%;
     left: 44%;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: "Tahoma", Georgia, sans-serif;
+    text-align: justify;
+    
+  }
+  .textAb1{
+    top: 45%;
+    left: 44%;
+    font-size: 1.3em;
+    font-family: "Tahoma", Georgia, sans-serif;
+    text-align: justify;
+    
+  }
+  .textL{
+    top: 45%;
+    left: 44%;
+    font-size: 1.1em;
+    font-family: "Tahoma", Georgia, sans-serif;
+    
     
   }
   .bar{
@@ -46,7 +65,7 @@
 }
 .text1{
   font-family: "Tahoma", Georgia, sans-serif;
-  text-align: left;
+  text-align: justify;
 }
 .textr{
   top: 45%;
@@ -57,7 +76,8 @@
 }
 .jumbotron{
   
-  background-image: url("https://cdn.photosight.ru/img/6/d2c/5790810_xlarge.jpg");
+  background-image: url("https://sun9-62.userapi.com/impg/Tgu-PDdujNVyz2g6Pwl368RCyIVNC2rwDgtqug/4UPWGRO0yNU.jpg?size=1280x904&quality=96&sign=38d66450e0d0ab2f98c7e36d53b77ece&type=album");
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -68,11 +88,19 @@
   color:rgb(0, 0, 0);
   
 }
-.colon{
-  background-color: rgba(255, 255, 255, 0.411);
-}
+
 .poz{
   position:absolute;
   right:280px;
   top:10px;
+}
+.ots{
+  margin-top: 0.15em;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #343a40;
+}
+.nav-link{
+  color: #343a40;
 }
