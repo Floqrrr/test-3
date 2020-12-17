@@ -17,14 +17,16 @@ export default class Contacts extends Component {
                 
             <Row>    
             <Col>
-            <p className="text">Аварийная служба-круглосуточно</p>
+            <p className="text">Аварийная служба</p>
+            <p className="text">Круглосуточно</p>
             <p className="text">тел. +7-391-267-97-97</p>
             <p className="text">тел. +7-999-448-18-55</p>
             </Col>
             <Col>
             <p className="textr">Офис</p>
             <p className="textr">Пн-Пт с 9-00 до 17-00</p>
-            <p className="textr">660074 г.Красноярск, ул. Академика Киренского, д.24а, пом.VI</p>
+            <p className="textr">Почтовый индекс: 660074 г.Красноярск</p>
+            <p className="textr">ул. Академика Киренского, д.24а, пом.VI</p>
             <p className="textr">Email: liftcity124@mail.ru</p>
             </Col>
             </Row>

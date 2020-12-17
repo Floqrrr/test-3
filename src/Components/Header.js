@@ -19,23 +19,24 @@ export default class Header extends Component {
             <Navbar fixed="top"  collapseOnSelect expand="md" bg="dark" variant="dark">
             
                 <Container>
-                <Navbar.Text><h4>ООО «ЛИФТСИТИ»</h4></Navbar.Text>
+                
                     <Navbar.Brand href="/">
                         <img 
                         src={logo}
-                        height="70"
-                        widght="70"
+                        height="90"
+                        widght="90"
                         className="d-inline-block align-top"
                         alt="Logo"
 
                         /> 
                         
                     </Navbar.Brand>
-
+                    <Navbar.Text href="/"><h4>ООО «ЛИФТСИТИ»</h4></Navbar.Text>
+                    
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                       
-                        <Nav className="mr-auto">
+                        <Nav className="ml-auto">
                             
                             <Nav.Link href="/"> <h5>Главная</h5></Nav.Link>
                             <Nav.Link href="/about"><h5>О компании</h5></Nav.Link>
@@ -70,7 +71,7 @@ export default class Header extends Component {
             <Navbar className="fixed"  collapseOnSelect expand="md" bg="dark" variant="dark">
             <Container>
                     <Navbar.Text className="mr-auto" >
-                        <h4 className="head">ООО «ЛИФТСИТИ»</h4>
+                    <h4 className="head">ООО «ЛИФТСИТИ»</h4>
                         <h5 className="head"></h5>
                         <h5 className="head"></h5>
                     </Navbar.Text>    
